@@ -1,5 +1,10 @@
 # Quantum Neural Network–Assisted Deep Learning for Central Serous Retinopathy (CSCR) Detection
 
+> [!IMPORTANT]
+> **Pretrained QNN & Segmentation Model Weights Required!**
+> Due to GitHub's file size limits, the trained model files (`.h5` and `.pth`) are hosted in the Releases section.
+> place them in the main folder before running `app.py`.
+
 An automated, interpretable, multimodal diagnostic web application for detecting **Central Serous Chorioretinopathy (CSCR / CSR)** from both **Fundus photographs** and **Optical Coherence Tomography (OCT)** scans. The framework integrates classical deep learning backbones, a **4-qubit Variational Quantum Circuit (VQC)** built with **PennyLane**, macular segmentation, and **Grad-CAM** visual explainability.
 
 ---
